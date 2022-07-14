@@ -1,0 +1,40 @@
+.company-preview {
+  margin-bottom: 13px;
+  .container .links {
+    width: 50px;
+  }
+  .img {
+    margin-inline-end: 13px;
+    width: 30px;
+    height: 30px;
+    background-color: #33333394;
+  }
+}
+
+.preview-idx {
+  margin: 0 23px 0 3px;
+  width: 14px;
+}
+
+.company-list {
+  font-size: 11px;
+  .container {
+    overflow-y: scroll;
+    // max-height: inherit;
+    max-height: 58vh;
+
+    &::-webkit-scrollbar {
+      width: 9px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: #ffffff;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #d2d2d2;
+      border-radius: 0px;
+      border: 2px solid #ffffff;
+    }
+  }
+}

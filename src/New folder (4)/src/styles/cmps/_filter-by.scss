@@ -1,0 +1,43 @@
+.filter-by {
+  margin-bottom: 20px;
+  .options {
+    .active {
+      background-color: black;
+      color: #fff;
+      height: 30px;
+    }
+    > * {
+      padding: 5px 16px;
+      border-radius: 30px;
+      margin-inline-end: 14px;
+      font-size: 12px;
+    }
+  }
+  .search-icon-container {
+    height: 2.5rem;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid rgb(239 239 239);
+    .upload {
+      position: absolute;
+      top: 10%;
+      right: 104%;
+      font-size: 1.15rem;
+    }
+    .search {
+      position: relative;
+      top: 11px;
+      left: 9px;
+      color: rgb(120, 120, 120);
+      width: 14px;
+      font-size: 0.9rem;
+    }
+    input {
+      border: 0;
+      margin-inline-start: 21px;
+      &:focus-visible {
+        outline: 0;
+      }
+    }
+  }
+}
